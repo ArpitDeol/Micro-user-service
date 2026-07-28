@@ -3,7 +3,9 @@ uvicorn[standard]
 sqlalchemy[asyncio]
 asyncpg
 pydantic-settings
+pydantic[email]
 python-jose[cryptography]
 passlib[bcrypt]
+bcrypt==4.0.1
 slowapi
 python-dotenv
