@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncpg
+pydantic-settings
+python-jose[cryptography]
+passlib[bcrypt]
+slowapi
+python-dotenv
